@@ -62,9 +62,9 @@ class _FactSliderAnimatorState extends State<FactSliderAnimator>
       height: MediaQuery.of(context).orientation == Orientation.landscape
           ? 120
           : MediaQuery.of(context).size.height / 9,
-      margin: EdgeInsets.fromLTRB(18.0, 0.0, 18.0, 23.0),
+      margin: const EdgeInsets.fromLTRB(18.0, 0.0, 18.0, 23.0),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
+        gradient: const LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
