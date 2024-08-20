@@ -148,7 +148,7 @@ class ImageSwiper extends StatelessWidget {
         ),
         child: CarouselSlider(
           // Enable autoplay
-          autoSliderDelay: Duration(seconds: 2),
+          autoSliderDelay: Duration(seconds: 5),
           autoSliderTransitionTime: Duration(milliseconds: 1500),
           autoSliderTransitionCurve: Curves.easeOutCubic,
           enableAutoSlider: true,
